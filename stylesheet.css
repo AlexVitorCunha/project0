@@ -1,0 +1,36 @@
+header {
+  cursor: pointer;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 50px;
+}
+
+.menu {
+  background-color: black;
+  width: 850px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+#home {
+  padding-left: 20px;
+}
+
+.menu > a {
+  color: blanchedalmond;
+  font-family: "Dancing Script", sans-serif;
+  font-size: 30px;
+  padding: 50px 50px;
+}
+
+.content {
+  font-family: "Dancing Script", sans-serif;
+  margin-top: 20px;
+}
+
+section p {
+  text-align: justify;
+  padding: 10px;
+}
+
+/*# sourceMappingURL=stylesheet.scss.map */
+
+/*# sourceMappingURL=stylesheet.css.map */
