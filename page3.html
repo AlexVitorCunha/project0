@@ -1,15 +1,55 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Webpage</title>
-        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&family=Gotu&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <title>Table of content</title>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <link rel="stylesheet" href="stylesheet.css">
     </head>
     <header>
-        <h3 href="/index.html">First Website Project</h3>
+        <h3 href="/index.html">First Website Project</h3> 
     </header>
     <body>
-        Hello, world!
+        <div class="menu">
+            <a id="home" href="/index.html">Home</a>
+            <a href="/page2.html">To-do-list</a>
+            <a href="/page3.html">Table of content</a>
+            <a href="/page4.html">Get in touch</a>
+        </div>
+        <table class="table table-bordered">
+            <thead class="thead-light">
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
     </body>
+    <hr/>
+    <footer>
+        Website made by Alex Cunha
+        <a href="https://www.instagram.com/alexvitormc/" target="_blank"><img src="insta.png" width="25px"></a>
+    </footer>
 </html>
